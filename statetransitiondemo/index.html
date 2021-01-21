@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>State transition demo.</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <h2>State transition demo..</h2>
+        <div class="page-div" id="form-div">
+            <hr />
+            <h5>Input form...</h5>
+            <form id="main-form">
+               <div id="name-input-div">
+                    <label for="name">Name : </label>
+                    <input id="name" name="name" type="text" />
+               </div>
+               <div>
+                    <h5 id="name-error-msg">Invalid Name!!</h5>
+               </div>
+               <div id="email-input-div">
+                    <label for="name">Email : </label>
+                    <input id="email" name="email" type="text" />
+                </div>
+                <div>
+                    <h5 id="email-error-msg">Invalid Email!!</h5>
+                </div>
+                <div>
+                    <button id="submit-button" type="button">Submit</button>
+                </div>
+                <div>
+                    <h5 id="data-submit-msg">Submitting data in 3 seconds</h5>
+                    <h5 id="success-submit-msg">Submitting success</h5>
+                </div>
+            </form>
+            <hr />
+        </div>
+        <div class="page-div" id="state-text-div">
+            <hr />
+            <h5>State transition log</h5>
+            <ul id="state-text-ul">
+            </ul>
+            <hr />
+        </div>
+    </body>
+</html>
